@@ -1,0 +1,9 @@
+MineSkinAPIKey: 'N/A'
+ViewSelfDisguises: true
+ViewSelfDisguisesDefault: true
+HearSelfDisguise: true
+TallSelfDisguises: false
+HideDisguisedPlayersFromTab: false
+ShowPlayerDisguisesInTab: false
+TablistRemoveDelay: 3
+PlayerDisguisesTablistExpiresMove: 100

@@ -1,0 +1,14 @@
+name: fighter
+permissions:
+- pa.limit.3
+- chatmanager.ping
+- essentials.tptoggle
+- essentials.workbench
+- essentials.disposal
+- weight.10
+- unlock.fighter.group
+parents:
+- default
+prefixes:
+- §f§r:
+    priority: 10

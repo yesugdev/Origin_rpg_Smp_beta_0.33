@@ -1,0 +1,720 @@
+ShopName: guide_2
+DisplayName: "§f" 
+InventorySize: 54 
+Command: guide 2
+shop: 
+  scroll_down:
+    MenuItem:
+    - type:PAPER 
+    - amount:1 
+    - custommodeldata:100092
+    RewardType: SHOP
+    Reward: 'guide'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+
+
+
+  ranks1:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  ranks2:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  ranks3:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  ranks4:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  ranks5:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  ranks6:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  ranks7:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  ranks8:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴋꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    - 'lore15:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore16:&f '
+    - 'lore18:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+
+
+  guide1:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  guide2:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  guide3:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  guide4:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  guide5:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  guide6:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  guide7:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  guide8:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore16:&f '
+    - 'lore20:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+
+  quest1:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  quest2:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  quest3:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  quest4:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  quest5:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  quest6:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  quest7:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  quest8:
+    MenuItem:
+    - "name:&f &lꞯᴜᴇꜱᴛ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore8:&f '
+    - 'lore13:&f '
+    - 'lore14:&f         &f&lᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ'
+    - 'lore15:&f '
+    - 'lore17:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  battlepass1:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  battlepass2:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  battlepass3:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  battlepass4:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  battlepass5:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  battlepass6:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  battlepass7:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  battlepass8:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore12:&f '
+    - 'lore13:&f  &f'
+    - 'lore14:&f  &f'
+    - 'lore15:&f '
+    - 'lore20:&f '
+    - 'lore26:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+
+
+  coin1:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  coin2:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  coin3:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  coin4:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+  coin5:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+  coin6:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 41
+  coin7:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+  coin8:
+    MenuItem:
+    - "name:&f &lᴄᴏɪɴꜱ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43

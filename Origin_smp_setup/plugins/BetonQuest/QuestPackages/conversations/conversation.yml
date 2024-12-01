@@ -1,0 +1,235 @@
+conversations:
+  antonio:
+    quester: "Antonio"
+    first: "blockShop"
+    NPC_options:
+      blockShop:
+        text: |-
+          &f &7Build a sturdy foundation for new house
+          &7            With years of experience,
+          &7            I'll ensure a solid foundation that will
+          &7            withstand the test of time.
+        events: "antoniofolder"
+
+  raphael:
+    quester: "Raphael"
+    first: "oreShop"
+    NPC_options:
+      oreShop:
+        text: |-
+          &f &7We specialize in premium ores.
+          &7            Our inventory includes high-purity iron,
+          &7            diamond and gold ores, perfect for various
+          &7            applications. How much quantity?
+          &7            do you require?
+        events: "raphaelfolder"
+
+  farmer:
+    quester: "Farmer"
+    first: "farmerShop"
+    NPC_options:
+      farmerShop:
+        text: |-
+          &f &7The climate here is perfect for corn,
+          &7            soybeans, and tomatoes.
+          &7            They yield great results.
+          &7            Have you considered organic farming or
+          &7            any specific challenges you're facing?
+        events: "farmerfolder"
+
+  anchor:
+    quester: "Anchor"
+    first: "fishermanShop"
+    NPC_options:
+      fishermanShop:
+        text: |-
+          &f &7We have a rich variety of fish here,
+          &7            including salmon, trout, and halibut.
+          &7            Are you interested in
+          &7            sport fishing or commercial fishing?
+        events: "fishermanfolder"
+
+
+  glinda:
+    quester: "Glinda"
+    first: "breweryShop"
+    NPC_options:
+      breweryShop:
+        text: |-
+          &f &7Love potions require careful consideration.
+          &7            Let's focus on attraction spells
+          &7            and self-love rituals that promote
+          &7            positive energy instead. It's important
+          &7            to respect free will and ethical practices.
+        events: "glindafolder"
+
+
+  butch:
+    quester: "Butch"
+    first: "burcherShop"
+    NPC_options:
+      burcherShop:
+        text: |-
+          &f &7We have a variety of premium wool options, 
+          &7            including merino, alpaca, and cashmere. 
+          &7            Each offers excellent softness and warmth.
+          &7            What quantity are you looking for?
+        events: "butchfolder"
+
+  forester:
+    quester: "Forester"
+    first: "foresterShop"
+    NPC_options:
+      foresterShop:
+        text: |-
+          &f &7We offer a range of woods, 
+          &7            such as oak, maple, and walnut,
+          &7            each with unique qualities.
+          &7            What dimensions and quantities
+          &7            do you need?
+        events: "foresterfolder"
+
+  achilles:
+    quester: "Achilles"
+    first: "achillesShop"
+    NPC_options:
+      achillesShop:
+        text: |-
+          &f &7Legends speak of enchanted artifacts, 
+          &7            ancient relics, and vast hoards of gold.
+          &7            But be warned, acquiring such loot often 
+          &7            comes with great peril and challenges.
+        events: "achillesfolder"
+
+  gatekeeper:
+    quester: "Gatekeeper"
+    first: "gatekeeperShop"
+    NPC_options:
+      gatekeeperShop:
+        text: |-
+          &f &7State your name and purpose
+          &7            traveler, for only those with 
+          &7            legitimate business may enter. The path 
+          &7            beyond this gate is treacherous.
+          &7            and filled with peril.
+        events: "gatekeeperfolder"
+
+
+  jesica:
+    quester: "Jesica"
+    first: jesica
+    NPC_options:
+      jesica:
+        text: |-
+          &f &7Hello there traveler.
+          &7            I'd be delighted to help you on
+          &7            your journey. Welcome to our 
+          &7            realm of adventure! What do?
+          &7            you want to know?
+        events: "jesicafolder"
+
+  john:
+    quester: "John"
+    first: john
+    NPC_options:
+      john:
+        text: |-
+          &f &7You are new here.
+          &7            You want to enter this village.
+          &7            okay, i will open the gate for you. 
+          &7            Just make sure follow the rules.
+        events: "johnfolder"
+        condition: "!hasGatePerm"
+
+
+  auctioner:
+    quester: "Auctioner"
+    first: "auctioner"
+    NPC_options:
+      auctioner:
+        text: |-
+          &f &7Ladies and gentlemen,
+          &7            welcome to today's thrilling auction!
+          &7            We have an exciting selection 
+          &7            of items up for bid
+        events: "auctionerfolder"
+
+  librarian:
+    quester: "Librarian"
+    first: 'librarian,farmerguild,minerguild,warriorguild,timberguild'
+    stop: 'false'
+    NPC_options:
+      librarian:
+        text: |-
+          &f &7welcome to our hallowed library,
+          &7            dear adventurer!. I am honored to assist
+          &7            you in your quest for knowledge. 
+          &7            What topic or question brings you here today?
+        pointers: librarian101
+        condition: "!hasGuildTag"
+
+      librarian2:
+        text: |-
+          &f &7There are &e4 Guilds &7which inclucdes
+          &7            &x&2&B&E&4&0&CFarmer&7, &x&C&1&E&4&3&3Miner&7, &x&E&4&2&3&2&3Warrior&7, and &x&9&0&7&1&0&1Timber&7.
+          &7            After you choose, you cannot change it 
+          &7            &7So choose wisely.
+        pointers: farmer, miner, warrior, timber
+
+      farmerguild:
+        text: |-
+          &f &7You are now a member of &x&2&B&E&4&0&CFarmer&7,
+          &7            This guild Quest mostly focus in farming. 
+          &7            Goodluck on your journey. 
+        condition: "hasGuildTag,hasFarmerPerms"
+
+      minerguild:
+        text: |-
+          &f &7You are now a member of &x&C&1&E&4&3&3Miner&7,
+          &7            This guild Quest mostly focus in mining. 
+          &7            Goodluck on your journey. 
+        condition: "hasGuildTag,hasMinerPerms"
+
+      warriorguild:
+        text: |-
+          &f &7You are now a member of &x&E&4&2&3&2&3Warrior&7,
+          &7            This guild Quest mostly focus in Hunting. 
+          &7            a monster, Be careful not to die, 
+          &7            and goodluck on your journey. 
+        condition: "hasGuildTag,hasWarriorPerms"
+
+      timberguild:
+        text: |-
+          &f &7You are now a member of &x&9&0&7&1&0&1Timber&7,
+          &7            This guild Quest mostly focus in chopping. 
+          &7            a trees, goodluck on your journey. 
+        condition: "hasGuildTag,hasTimberPerms"
+
+
+
+
+
+
+    player_options:
+      librarian101:
+        text: May i know what are the avaiable Guild
+        pointers: librarian2
+      thank:
+        text: Thanks
+      farmer:
+        text: 'I want to join &x&2&B&E&4&0&CFarmer'
+        pointers: farmerguild
+        events: "farmerPerms, excludeFarmer, guildTag"
+        condition: "!hasFarmerPerms,!hasGuildTag"
+      miner:
+        text: 'I want to join &x&C&1&E&4&3&3Miner'
+        events: "minerPerms, excludeMiner, guildTag"
+        condition: "!hasMinerPerms,!hasGuildTag"
+      warrior:
+        text: 'I want to join &x&E&4&2&3&2&3Warrior'
+        events: "warriorPerms, excludeWarrior, guildTag"
+        condition: "!hasWarriorPerms,!hasGuildTag"
+      timber:
+        text: 'I want to join &x&9&0&7&1&0&1Timber'
+        events: "timberPerms, excludeTimber, guildTag"
+        condition: "!hasTimberPerms,!hasGuildTag"

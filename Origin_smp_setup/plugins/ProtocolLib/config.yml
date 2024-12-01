@@ -1,0 +1,19 @@
+global:
+  auto updater:
+    notify: true
+    download: false
+    
+ 
+  metrics: true
+  chat warnings: true
+  
+  background compiler: true
+  
+  ignore version check: 
+  debug: false
+  
+  detailed error: false
+  
+  script engine: JavaScript
+  
+  suppressed reports:

@@ -1,0 +1,154 @@
+Amethyst_sword:
+  Id: DIAMOND_SWORD
+  Model: 10000
+  Lore:
+  - '&8--------------'
+  - '&6A powerful sword'
+  - '&6using an imbued amethyst'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  - DURABILITY:2
+  Attributes:
+    MainHand:
+      Damage: 8.5
+emerald_sword:
+  Id: DIAMOND_SWORD
+  Model: 10001
+  Lore:
+  - '&8--------------'
+  - '&6A powerful sword'
+  - '&6using an imbued emerald'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - FIRE_ASPECT:2
+  Attributes:
+    MainHand:
+      Damage: 8.5
+obsidian_sword:
+  Id: DIAMOND_SWORD
+  Model: 10002
+  Lore:
+  - '&8--------------'
+  - '&6A powerful sword'
+  - '&6using an imbued obsidian'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:4
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  - DURABILITY:3
+  Attributes:
+    MainHand:
+      Damage: 8.5
+ruby_sword:
+  Id: DIAMOND_SWORD
+  Model: 10003
+  Lore:
+  - '&8--------------'
+  - '&6A powerful sword'
+  - '&6using an imbued ruby'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - FIRE_ASPECT:2
+  - DURABILITY:3
+  - MENDING:1
+  Attributes:
+    MainHand:
+      Damage: 8.5
+      
+Amethyst_axe:
+  Id: DIAMOND_AXE
+  Model: 10000
+  Lore:
+  - '&8--------------'
+  - '&6A powerful axe'
+  - '&6useful for chopping wood'
+  - '&6or splitting skulls,'
+  - '&6depending on your mood.'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - DIG_SPEED:5
+  - DURABILITY:2
+  Attributes:
+    MainHand:
+      Damage: 9.5
+emerald_axe:
+  Id: DIAMOND_AXE
+  Model: 10001
+  Lore:
+  - '&8--------------'
+  - '&6A powerful weapon used'
+  - '&6by cavalries in 16th century'
+  - '&6useful for chopping wood'
+  - '&6or splitting skulls.'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:4
+  - DIG_SPEED:2
+  - DURABILITY:2
+  Attributes:
+    MainHand:
+      Damage: 9.5
+obsidian_axe:
+  Id: DIAMOND_AXE
+  Model: 10002
+  Lore:
+  - '&8--------------'
+  - '&6The Obsidian Axe'
+  - '&6is a Unique Weapon'
+  - '&6useful for chopping wood'
+  - '&6or splitting skulls.'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:4
+  - DIG_SPEED:4
+  - SILK_TOUCH:1
+  - DURABILITY:3
+  Attributes:
+    MainHand:
+      Damage: 9.5
+ruby_axe:
+  Id: DIAMOND_AXE
+  Model: 10003
+  Lore:
+  - '&8--------------'
+  - '&6It may look too'
+  - '&6sparkly and pretty'
+  - '&6too take in battle'
+  - '&6useful for chopping wood'
+  - '&6or splitting skulls.'
+  - '&8--------------'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - DIG_SPEED:5
+  - DURABILITY:3
+  Attributes:
+    MainHand:
+      Damage: 9.5
+Ghoulhead:
+  Id: PLAYER_HEAD
+  Data: 3
+  Display: '&5Ghoul Heal'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxY2ZiZDY4OTllZWVjOTQ2NmYwMjZjYTg0NzgwN2ZiNjBlMjc2Y2JkMDFhY2Y5MTkyNWViNzkwMmI5YTYzMiJ9fX0=
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  Lore:
+  - '&e&oGhoul head'
+Pennywise:
+  Id: PLAYER_HEAD
+  Data: 3
+  Display: '&5Pennywise'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEzN2FjY2E3NmRlYWZhMGMzZTFjMTZiZTE4ZDg0YTA5ZGMzM2QzYzZjODc2ZDM2NzA1Y2RmYTJlMzQxMzFiYyJ9fX0=
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  Lore:
+  - '&e&oClowns head'
+      

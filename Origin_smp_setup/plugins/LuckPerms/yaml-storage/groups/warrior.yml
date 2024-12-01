@@ -1,0 +1,16 @@
+name: warrior
+permissions:
+- pa.limit.4
+- chatmanager.ping
+- essentials.tptoggle
+- essentials.workbench
+- essentials.disposal
+- essentials.anvil
+- cosmetics.backpack
+- unlock.warrior.group
+- weight.20
+parents:
+- default
+prefixes:
+- §f§r:
+    priority: 20

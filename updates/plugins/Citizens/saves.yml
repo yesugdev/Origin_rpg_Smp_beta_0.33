@@ -1,0 +1,833 @@
+last-created-npc-id: 14
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: 9097d7c0-1c7f-460a-9fd6-fab1c7555468
+      cached-skin-uuid-name: jesica
+      activation-range: 16
+      nameplate-visible: 'false'
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+    name: '&6Jesica'
+    uuid: 09814a28-e916-485b-ba3e-e63ee77602d0
+    traits:
+      villagertrait:
+        level: 1
+        type: SNOW
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      profession: NITWIT
+      equipment:
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAJSXRlbUZsYWdzdAALVW5icmVha2FibGV0AAhpbnRlcm5hbHQABWNvbG9ydXEAfgAGAAAACXQACEl0ZW1NZXRhdAANTEVBVEhFUl9BUk1PUnQAk3siZXh0cmEiOlt7ImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6ImFxdWEiLCJ0ZXh0IjoiTWV4aWNhbiBIYXQifV0sInRleHQiOiIifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAAAnQAC3sidGV4dCI6IiJ9dACZeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCIsInRleHQiOiJJdHMgdmVyeSBNZXhpY2FuISJ9XSwidGV4dCI6IiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxVzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAA3cEAAAAA3QAD0hJREVfQVRUUklCVVRFU3QAEEhJREVfVU5CUkVBS0FCTEV0AAhISURFX0RZRXhzcgARamF2YS5sYW5nLkJvb2xlYW7NIHKA1Zz67gIAAVoABXZhbHVleHABdABASDRzSUFBQUFBQUFBLytOaVlPQmc0TXROVE05TWprL09MODVOTGNsTVptREpTQ3d4WkFBQXJuTFNxUnNBQUFBPXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHQABUFMUEhBdAADUkVEdAAEQkxVRXQABUdSRUVOdXEAfgAGAAAABXQABUNvbG9yc3EAfgAbAAAA/3NxAH4AGwAAAP9zcQB+ABsAAAD/c3EAfgAbAAAA/w==
+      skintrait:
+        fetchDefaultSkin: true
+        signature: hBscbDzREeFCYt09cTB4CPXSfUms1MGhj9WdwDfgbFvUqUn+vRgCWhkX2PuazRwgGs8eeWi7LNptNFFYOSODizmKT+JKgh6RWUsr/fLoXnwTj36F6lnZSGHZCr4pjwz2aSMxCG/UuLKcVWV8Djzchb5m4BjmJNn05ITum8oPVo6m44ISTHR0kO3XOwYYhgIyN1lygmMv/WNpFRRCPqRcpa0moicDS43gZLzpGKM9Z4eAFISwEiECI06FTleHdAuKYIo8wPjUPDft6F6SZ2REHisc2fg6wsdnqbsMSmgUHRtl44yUzAWfg2KABSRsvtDmEcfiYTQpDiNICdQsEJs2v97k+R7RZkchGQ3/CJ8/McE6Zr8EDUyShtJSeSOS3FgxOU44KWsHv/IVqfDpDn02kUQMCAHF49jWBvL5DVNyzzBLY56qP7YlimuD6oLYRWZ9QnsuV6X6qnvB78JpnGBx0Wfml3RJAYXCE79x8JJ+Bq5Pk6DjM3aztoqpVIMEBnzG6qFdE9ghUV3MDRCjf4PEO2169pXMrZEmDIkgM/j869T+0CLJ7IsqPntHz/olJwH3x1J/uVZ9V+jIiyHULC8rs1Yrk/cVz2wkaGnUBiRk272ig4GeNz+klaHySHCfnhnthcdYgiwrvmB3+AbtxxII0NQgmNxGEOxAis6mgTiiqwk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NjM3MTg0MjQ0OSwKICAicHJvZmlsZUlkIiA6ICI5MDk3ZDdjMDFjN2Y0NjBhOWZkNmZhYjFjNzU1NTQ2OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJqZXNpY2EiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNiZTAxMzcyOTUwODNjYWJjOGE1MTQwYzQxMjIwNzlkZDhhYTdlNGExMzljNmFkMzM4MGVmYzA1NGUwOWJiMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: 100.43797
+        world: isla
+        x: '60.8434'
+        y: '82.0'
+        z: '141.4595'
+        yaw: '120.438'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+    traitnames: scoreboardtrait,villagertrait,lookclose,spawned,location,equipment,inventory,profession,mounttrait,owner,skintrait,type,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      nameplate-visible: 'false'
+    name: '&6Forester'
+    uuid: 518a459e-3d69-425f-8560-c9d657c2ae50
+    traits:
+      villagertrait:
+        level: 1
+        type: SNOW
+      location:
+        bodyYaw: -18.664673
+        world: isla
+        x: '64.6645'
+        y: '83.0'
+        z: '-4.5409'
+        yaw: '-18.6647'
+        pitch: '0.0'
+      spawned: true
+      profession: FLETCHER
+      type: VILLAGER
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,hologramtrait,owner,lookclose,villagertrait,spawned,location,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      nameplate-visible: 'false'
+    name: butch
+    uuid: 8799f61a-984c-46ff-a915-7f0f633e19fd
+    traits:
+      villagertrait:
+        level: 4
+        type: SWAMP
+      location:
+        bodyYaw: -55.416943
+        world: isla
+        x: '67.5969'
+        y: '82.0'
+        z: '41.344'
+        yaw: '-55.4169'
+        pitch: '0.0'
+      spawned: true
+      profession: BUTCHER
+      type: VILLAGER
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,owner,hologramtrait,lookclose,villagertrait,spawned,location,shop,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      nameplate-visible: 'false'
+    name: farmer
+    uuid: 0f216232-3ee5-4406-a7be-cee7c0d4f591
+    traits:
+      profession: FARMER
+      spawned: true
+      location:
+        bodyYaw: 94.493195
+        world: isla
+        x: '70.7441'
+        y: '82.0'
+        z: '76.2321'
+        yaw: '93.5675'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      villagertrait:
+        level: 4
+        type: TAIGA
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,owner,hologramtrait,lookclose,villagertrait,spawned,location,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: antonio
+    uuid: 2fda75e3-9960-4d61-94eb-77c07f5e6f5b
+    traits:
+      profession: MASON
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: 79.094315
+        world: isla
+        x: '43.2468'
+        y: '82.0'
+        z: '40.8249'
+        yaw: '89.2862'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      villagertrait:
+        level: 3
+        type: TAIGA
+      type: VILLAGER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: scripttrait,scoreboardtrait,villagertrait,lookclose,spawned,location,equipment,profession,mounttrait,hologramtrait,owner,commandtrait,type,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'false'
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '5':
+    name: Raphael
+    uuid: afd8966c-2d14-4c1e-bc74-c2562e84ec69
+    traits:
+      profession: TOOLSMITH
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: -138.28369
+        world: isla
+        x: '37.1338'
+        y: '82.0'
+        z: '47.2753'
+        yaw: '-138.2837'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      villagertrait:
+        level: 3
+        type: TAIGA
+      type: VILLAGER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,owner,hologramtrait,lookclose,villagertrait,spawned,location,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'false'
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '8':
+    name: Achilles
+    uuid: 29e12351-2eb9-4fe2-b06a-1ad95944e604
+    traits:
+      profession: LIBRARIAN
+      spawned: true
+      location:
+        bodyYaw: -155.0056
+        world: isla
+        x: '44.4579'
+        y: '82.0'
+        z: '76.9145'
+        yaw: '-156.7754'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      villagertrait:
+        level: 5
+        type: DESERT
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: 
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': Hi, I'm <npc>!
+    traitnames: mounttrait,scoreboardtrait,owner,hologramtrait,text,lookclose,villagertrait,spawned,location,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'false'
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '7':
+    name: Anchor
+    uuid: 695774ee-374f-4e68-8c93-70c18c10bfb8
+    traits:
+      profession: FISHERMAN
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: 68.059875
+        world: isla
+        x: '73.9621'
+        y: '82.0'
+        z: '72.3035'
+        yaw: '48.0599'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      villagertrait:
+        level: 3
+        type: JUNGLE
+      type: VILLAGER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,hologramtrait,owner,lookclose,villagertrait,spawned,location,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'false'
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '6':
+    name: Glinda
+    uuid: 1d67cb05-7f49-4733-b754-27619bbfee0e
+    traits:
+      profession: CLERIC
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: -36.006744
+        world: isla
+        x: '74.2732'
+        y: '82.0'
+        z: '47.5449'
+        yaw: '-36.0067'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      villagertrait:
+        level: 3
+        type: SAVANNA
+      type: VILLAGER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,hologramtrait,owner,villagertrait,lookclose,spawned,location,type,profession,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'false'
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '9':
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      nameplate-visible: 'false'
+    name: GateKeeper
+    uuid: a471d96c-883a-4f20-a8dd-2bff316a775e
+    traits:
+      type: WANDERING_TRADER
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      location:
+        bodyYaw: -73.01581
+        world: dungeon
+        x: '-3.7219'
+        y: '69.0'
+        z: '-59.7428'
+        yaw: '-73.0158'
+        pitch: '1.7395'
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+        provider: linear
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+    traitnames: mounttrait,scoreboardtrait,owner,lookclose,spawned,waypoints,location,type,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      nameplate-visible: 'false'
+    name: librarian
+    uuid: 1a593081-70d6-40e1-8a4f-9550f96690bd
+    traits:
+      villagertrait:
+        level: 1
+        type: SNOW
+      type: VILLAGER
+      spawned: true
+      profession: LIBRARIAN
+      location:
+        bodyYaw: 3.5407715
+        world: isla
+        x: '104.8815'
+        y: '85.0625'
+        z: '26.4807'
+        yaw: '3.5408'
+        pitch: '0.0'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,hologramtrait,owner,villagertrait,spawned,location,type,profession
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    name: john
+    uuid: 85688853-993f-4080-9ca4-b42e5fcf926a
+    traits:
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: ILLUSIONER
+      spawned: true
+      location:
+        bodyYaw: -75.39685
+        world: isla
+        x: '51.1312'
+        y: '82.0'
+        z: '120.473'
+        yaw: '-75.3969'
+        pitch: '1.7137'
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,hologramtrait,owner,lookclose,spawned,location,type,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+      nameplate-visible: 'false'
+  '13':
+    name: auctioner
+    uuid: 743cc9a3-1893-4321-bec4-1e7c12b9cd83
+    traits:
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 154.07501
+        world: isla
+        x: '74.4712'
+        y: '84.0'
+        z: '105.7356'
+        yaw: '153.1411'
+        pitch: '1.657'
+      type: WANDERING_TRADER
+      spawned: true
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0':
+            text: '&f'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: mounttrait,scoreboardtrait,owner,hologramtrait,lookclose,spawned,location,type,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      nameplate-visible: 'false'
+      silent-sounds: true
+  '14':
+    metadata:
+      cached-skin-uuid: 0108584a-1ca9-446e-9a4e-46a034a9d38c
+      cached-skin-uuid-name: 678b4b5c-86e1-4df6-a582-6ff11e478e12
+      ambient-sound: ''
+      death-sound: ''
+      glowing: true
+      hurt-sound: ''
+      silent-sounds: true
+      using-held-item: true
+    name: Fillet
+    uuid: 7d54dffd-a39c-45d5-ac69-2ec33d9368c5
+    traits:
+      mounttrait:
+        mountedon: d6f26439-fa5e-45a3-94cb-91336ea3839c
+      skintrait:
+        fetchDefaultSkin: true
+        signature: uDeO+DlWPzS7uz+p4R6CJITYV9NGGMubg5iX8z0S9YtjGcxiGYyqiu3Ih186ArhWRGOQI+jsKEcVlQnk/hjr7F0NuAcxJdr7bUlvy16CTL9Mv+FCWga+auinDM0rfI4WYw8dP4jtQLu4lDOe1GPFUnGIefA1MN2N9ixnvV2tvKTtOBsyUd8YoCBnbCjTxcy8nK1SbyQw9AaWD//yz/ZeX/cUm/Rdxorg4lQkkNcvQHaAQ2OPqfq9DDKN4ESLdfmpJmtYM+U1689pdOlbAAFEDp8h3gK9Up5TvI2bADzg/zsWsAqY/wVQfhxaLytWR1wem4BR3WGWcq+w4tl9DPQ28YKqmAA6mE8nZUI0HwueaQMl4EIuv6kB9Vsk1t3E4UYmR03vja6P43NI/QaX+rzROuENCJE2Pm0pmJrA3SvqbD2XO+VmoDBIpnmxaDjd7VZ8dD+Fi6lQ69gfQ9QuSB563DVwJhXE/xJ/ZZm/j4H0drASFLqzmSV4WgvSiKffd08aZrrDPC9o3v111bVhAjDNhYksUQ8f1/m874kZUWNpx89ydJKRKwdPJmIUVBtExcixCGYFSNjk8VLCZw1MtxUH310DWHUlG4Y40KMc7U1XC1kf8fp3mKSYc1rKHmCE9evuS/u8TqK3bqzru28vcc6TseqIWzSlMEJhxZTgZoIVI4w=
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODY4Njc5NTkyNDksInByb2ZpbGVJZCI6IjczODJkZGZiZTQ4NTQ1NWM4MjVmOTAwZjg4ZmQzMmY4IiwicHJvZmlsZU5hbWUiOiJZYU9PUCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2MyODY0MDExZDBhZmUzYWI4ZGU1MTE5YzhmNGI0ZjUyZDIwYTcwNDFkN2YyMGExYjg5ODU1NmE4ZjE3NjdkYyIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19
+        updateSkins: false
+        skinName: 678b4b5c-86e1-4df6-a582-6ff11e478e12
+      location:
+        bodyYaw: 169.3696
+        world: isla
+        x: '62.1347'
+        y: '84.45'
+        z: '70.7277'
+        yaw: '169.3696'
+        pitch: '11.0658'
+      sitting:
+        sitting: true
+        chair location:
+          world: isla
+          x: '62.1347'
+          y: '84.8'
+          z: '70.7277'
+          yaw: '169.3696'
+          pitch: '11.0658'
+      spawned: true
+      owner:
+        uuid: f4cfd4b0-200b-47db-813f-8b93e4207aa0
+      type: PLAYER
+      skinlayers:
+        cape: false
+        hat: false
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      assignment:
+        assignment: ''
+        assignment_list:
+          '0': npc_killquest
+      triggers:
+        enabled:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: false
+          DAMAGE: false
+        properly_set:
+          CHAT: true
+          CLICK: true
+          PROXIMITY: false
+          DAMAGE: false
+      scoreboardtrait:
+        color: AQUA
+    traitnames: sitting,scoreboardtrait,assignment,lookclose,spawned,sittrait,location,inventory,triggers,mounttrait,owner,skinlayers,skintrait,constants,type,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

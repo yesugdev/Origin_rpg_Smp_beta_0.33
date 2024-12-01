@@ -1,0 +1,21 @@
+worlds:
+  global:
+  - globalscoreboard
+  world:
+  - globalscoreboard
+  world_the_end: globalscoreboard
+  world_nether: globalscoreboard
+permissions:
+  adminboard: animatedscoreboard.test
+
+
+placeholderapi: true
+check_updates: true
+debug_mode: false
+enable-triggers: false
+
+player-storage: SQLITE
+
+force-legacy: false
+
+hex-in-placeholders: true

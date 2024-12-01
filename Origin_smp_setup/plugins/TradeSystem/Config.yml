@@ -1,0 +1,118 @@
+TradeSystem:
+  Prefix: '&f &r'
+  Language: ENG
+  Permissions: true
+  
+  Trade_Both: true
+  Input_GUI: ANVIL
+  Trade_Distance:
+    enabled: true
+    distance_in_blocks: 50
+  
+  Revoke_Ready_State_on_Offer_Change: true
+  
+  Allowed_GameModes:
+  - SURVIVAL
+  - ADVENTURE
+  Blocked_Worlds:
+  - ExampleWorld-1
+  - ExampleWorld-2
+  
+  Allowed_Regions:
+    Mode: Blacklist
+    Regions: []
+  
+  Blacklist:
+  - Material: AIR
+    Compare: IGNORE_CASE
+  - DisplayName: '&cExample'
+    Material: AIR
+    Compare: IGNORE_CASE
+  - DisplayName: '&cExample, which blocks all items with this strange name!'
+    Compare: IGNORE_CASE
+  
+  Trade_Countdown:
+    Enabled: true
+    Interval: 20
+    Repetitions: 3
+  
+  Trade_Drop_Items: true
+  
+  Trade_Request_Expiration_Time: 60
+  
+  Trade_Finish_Report:
+    Items: true
+    Economy: true
+  
+  Action_To_Cancel:
+    Player_get_damaged: true
+  Action_To_Request:
+    Shift_Rightclick: false
+  
+  Money:
+    Grouping_Separator: ','
+    Decimal_Separator: .
+    
+    Easy_Selection:
+      Enabled: true
+      Shortcuts:
+      - Keys:
+        - k
+        Value: 1000
+      - Keys:
+        - m
+        - mio
+        Value: 1000000
+  
+  Commands:
+    Trade:
+    - trade
+    Accept:
+    - accept
+    Deny:
+    - deny
+    Toggle:
+    - toggle
+  
+  TradeLog:
+    Enabled: false
+    Database:
+      Type: MySQL
+      MySQL:
+        Connection_URL: jdbc:mysql://localhost:3306/tradelog?autoReconnect=true&useSSL=false
+        User: root
+        Password: password
+  
+  Sounds:
+    Trade_Started:
+      Name: LEVEL_UP
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Finished:
+      Name: LEVEL_UP
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Blocked:
+      Name: NOTE_BASS
+      Volume: 0.8
+      Pitch: 0.6
+    Trade_Cancelled:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Request:
+      Name: ORB_PICKUP
+      Volume: 0.6
+      Pitch: 1.0
+    Countdown_Tick:
+      Name: ORB_PICKUP
+      Volume: 0.6
+      Pitch: 1.0
+    Countdown_Stop:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0
+    Change_during_Shulker_Peek:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0

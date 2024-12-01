@@ -1,0 +1,27 @@
+
+exampleAllHelmets:
+  material: "*_HELMET"
+
+exampleSoulbound:
+  loreContains:
+    - "Kept on Death"
+  ignoreColors: true
+
+exampleSlimefunAltar:
+  material: ENCHANTING_TABLE
+  nameExact: "&dAncient Altar"
+  loreExact:
+    - ""
+    - "&5Multi-Block Altar for"
+    - "&5magical Crafting Processes"
+
+exampleDiamonds:
+  material: DIAMOND
+  force-delete: true
+
+exampleFirstSlotInHotbar:
+
+exampleTridentWhenInOffhand:
+  material: TRIDENT
+  slot: 40
+  force-delete: true

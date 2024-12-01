@@ -1,0 +1,6 @@
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 103
+  Item_Flags:
+  - HIDE_ATTRIBUTES

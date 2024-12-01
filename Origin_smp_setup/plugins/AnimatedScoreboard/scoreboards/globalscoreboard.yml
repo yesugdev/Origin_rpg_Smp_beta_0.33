@@ -1,0 +1,61 @@
+display:
+    title:
+      text:
+      - "&f"
+      random: false
+      interval: 2
+    line-1:
+      text:
+      - " "
+      random: false
+      interval: 200
+      score: 99   
+    line-2:
+      text:
+      - "&f &6&lRank: &f%luckperms_prefix%"
+      random: false
+      interval: 5
+      score: 98
+    line-3:
+      text:
+      - " "
+      random: false
+      interval: 20
+      score: 97
+    line-4:
+      text:
+      - "&f &6&lCoords:"   
+      random: false
+      interval: 60
+      score: 96
+    line-5:
+      text:
+      - "&f<update ticks=1>&fX:%player_x% Y:%player_y% Z:%player_z%</update>"   
+ 
+      random: false
+      interval: 60
+      score: 95
+    line-7:
+      text:
+      - " "
+      random: false
+      interval: 200
+      score: 95
+    line-8:
+      text:
+      - "&f &6&lCoins&8: &f%vault_eco_balance% "  
+      random: true
+      interval: 1
+      score: 94
+    line-9:
+      text:
+      - " "       
+      random: true
+      interval: 1
+      score: 93
+    line-10:
+      text:
+      - " &7Online Players: &6%server_online%"       
+      random: true
+      interval: 1
+      score: 93

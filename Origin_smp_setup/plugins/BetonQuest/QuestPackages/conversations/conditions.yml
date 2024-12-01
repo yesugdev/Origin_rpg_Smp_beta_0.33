@@ -1,0 +1,7 @@
+conditions:
+  hasGatePerm: "permission gate.open"
+  hasMinerPerms: "permission miner.guild"
+  hasWarriorPerms: "permission warrior.guild"
+  hasFarmerPerms: "permission farmer.guild"
+  hasTimberPerms: "permission timber.guild"
+  hasGuildTag: "tag guildTag"

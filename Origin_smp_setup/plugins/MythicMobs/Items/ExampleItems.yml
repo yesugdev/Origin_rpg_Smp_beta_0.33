@@ -1,0 +1,15 @@
+SkeletonKingSword:
+  Id: DIAMOND_SWORD
+  Data: 0
+  Display: '&3Greatsword of the Skeleton King'
+  Lore:
+  - '&6A powerful sword used by'
+  - '&6the King of Skeletons.'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  Attributes:
+    MainHand:
+      Health: 10
+      MovementSpeed: 0.1

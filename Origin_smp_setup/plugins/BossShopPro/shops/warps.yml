@@ -1,0 +1,488 @@
+ShopName: warps
+DisplayName: "§f" 
+InventorySize: 45 
+Command: warp:warps:teleport
+shop: 
+  home1:
+    MenuItem:
+    - "name:&f &lʜᴏᴍᴇ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore8:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'home'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  home2:
+    MenuItem:
+    - "name:&f &lʜᴏᴍᴇ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore8:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'home'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  home10:
+    MenuItem:
+    - "name:&f &lʜᴏᴍᴇ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore8:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'home'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  home11:
+    MenuItem:
+    - "name:&f &lʜᴏᴍᴇ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore8:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'home'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+
+
+
+
+  rtp1:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore10:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'rtp'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  rtp2:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore10:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'rtp'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  rtp3:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore10:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'rtp'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  rtp4:
+    MenuItem:
+    - "name:&f &lʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    - 'lore10:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'rtp'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+
+
+
+  dungeon1:
+    MenuItem:
+    - "name:&f &lᴅᴜɴɢᴇᴏɴ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore3:&f '
+    - 'lore8:&f '
+    RewardType: COMMAND
+    Reward: 'warp dungeon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  dungeon2:
+    MenuItem:
+    - "name:&f &lᴅᴜɴɢᴇᴏɴ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore3:&f '
+    - 'lore8:&f '
+    RewardType: COMMAND
+    Reward: 'warp dungeon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  dungeon3:
+    MenuItem:
+    - "name:&f &lᴅᴜɴɢᴇᴏɴ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore3:&f '
+    - 'lore8:&f '
+    RewardType: COMMAND
+    Reward: 'warp dungeon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  dungeon4:
+    MenuItem:
+    - "name:&f &lᴅᴜɴɢᴇᴏɴ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore3:&f '
+    - 'lore8:&f '
+    RewardType: COMMAND
+    Reward: 'warp dungeon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+
+
+  cosmetic1:
+    MenuItem:
+    - "name:&f &lᴄᴏꜱᴍᴇᴛɪᴄꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'warp cosmetic %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  cosmetic2:
+    MenuItem:
+    - "name:&f &lᴄᴏꜱᴍᴇᴛɪᴄꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'warp cosmetic %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  cosmetic10:
+    MenuItem:
+    - "name:&f &lᴄᴏꜱᴍᴇᴛɪᴄꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'warp cosmetic %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+  cosmetic11:
+    MenuItem:
+    - "name:&f &lᴄᴏꜱᴍᴇᴛɪᴄꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'warp cosmetic %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+
+
+
+
+
+  yellow1:
+    MenuItem:
+    - "name:&f &lʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp yellow_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  yellow2:
+    MenuItem:
+    - "name:&f &lʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp yellow_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  yellow3:
+    MenuItem:
+    - "name:&f &lʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp yellow_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  yellow4:
+    MenuItem:
+    - "name:&f &lʏᴇʟʟᴏᴡ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp yellow_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+
+
+
+  blue1:
+    MenuItem:
+    - "name:&f &lʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp blue_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  blue2:
+    MenuItem:
+    - "name:&f &lʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp blue_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  blue3:
+    MenuItem:
+    - "name:&f &lʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp blue_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  blue4:
+    MenuItem:
+    - "name:&f &lʙʟᴜᴇ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore5:&f '
+    RewardType: COMMAND
+    Reward: 'warp blue_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+
+
+  green1:
+    MenuItem:
+    - "name:&f &lɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'warp green_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  green2:
+    MenuItem:
+    - "name:&f &lɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'warp green_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  green3:
+    MenuItem:
+    - "name:&f &lɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'warp green_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+  green4:
+    MenuItem:
+    - "name:&f &lɢʀᴇᴇɴ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'warp green_balloon %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+
+
+  red1:
+    MenuItem:
+    - "name:&f &lʀᴇᴅ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'spawn %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+  red2:
+    MenuItem:
+    - "name:&f &lʀᴇᴅ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'spawn %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  red3:
+    MenuItem:
+    - "name:&f &lʀᴇᴅ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'spawn %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+  red4:
+    MenuItem:
+    - "name:&f &lʀᴇᴅ ʙᴀʟʟᴏᴏɴ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore4:&f '
+    RewardType: COMMAND
+    Reward: 'spawn %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+

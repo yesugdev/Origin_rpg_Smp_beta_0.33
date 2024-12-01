@@ -1,0 +1,426 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+angelchest-duration: 600
+
+unlock-duration: 0
+
+max-allowed-angelchests: 5
+
+max-allowed-angelchests-behaviour: drop
+
+drop-contents-when-expired: true
+
+allow-angelchest-in-pvp: true
+
+dont-protect-chest-if-player-died-in-pvp: false
+
+collect-xp: true
+
+xp-percentage: -1
+
+spawn-chance: 1.0
+
+random-item-loss: 0
+
+random-item-loss-drop: false
+
+random-item-loss-ignores-enchanted-items: false
+
+cooldown: 0
+
+pvp-cooldown: 0
+
+show-location: true
+
+show-location-on-join: true
+
+show-message-when-other-player-opens-angelchest: true
+show-message-when-other-player-empties-angelchest: true
+
+show-gui-after-death: false
+
+only-show-gui-after-death-if-player-can-tp-or-fetch: true
+
+material: "CHEST"
+
+use-different-material-when-unlocked: false
+material-unlocked: "ENDER_CHEST"
+
+void-detection: true
+
+lava-detection: true
+
+allow-chest-in-lava: true
+
+allow-chest-in-void: true
+
+invulnerability-after-tp: 0
+
+prohibit-auto-equip: false
+
+dont-spawn-on:
+- FARMLAND
+- GRASS_PATH
+- DIRT_PATH
+- LAVA
+
+only-spawn-in:
+- AIR
+- WATER
+- SNOW
+
+max-radius: 10
+
+minimum-air-above-chest: 0
+
+avoid-lava-oceans: false
+
+never-replace-bedrock: true
+
+remove-curse-of-vanishing: true
+remove-curse-of-binding: false
+
+totem-of-undying-works-everywhere: true
+
+play-totem-animation: false
+totem-custom-model-data: 0
+
+auto-respawn: false
+
+auto-respawn-delay: 10
+
+using-actoggle-breaks-existing-chests: true
+
+async-chunk-loading: true
+
+check-for-updates: true
+
+check-interval: 24
+
+
+death-maps: false
+
+dispose-death-maps: false
+
+death-map-marker: RED_X
+
+death-map-name: Grave
+death-map-lore: "X: {x}\nY: {y}\nZ: {z}"
+
+
+drop-heads: false
+
+only-drop-heads-in-pvp: true
+
+only-drop-heads-in-pvp-cooldown: 10
+
+dont-store-heads-in-angelchest: true
+
+
+
+
+use-graveyard-only-as-respawn-point: false
+
+try-closest-graveyard: true
+
+try-global-graveyard: true
+
+fallback-to-deathlocation: true
+
+
+
+
+
+
+price-teleport: 0
+
+price-fetch: 0
+
+price: 0
+
+refund-expired-chests: false
+
+price-open: 0
+
+confirm: true
+
+prevent-placing-custom-items: true
+
+price-format: "%,.2f"
+
+
+allow-tp-across-worlds: true
+allow-fetch-across-worlds: true
+
+max-tp-distance: 0
+max-fetch-distance: 0
+
+min-distance: 0
+
+tp-wait-time: 0
+
+
+play-sound-on-tp: true
+play-sound-on-fetch: true
+sound-effect: ENTITY_EXPERIENCE_ORB_PICKUP
+sound-volume: 1.0
+sound-pitch: 1.0
+sound-channel: BLOCKS
+
+
+
+
+
+
+disabled-materials:
+
+
+
+
+disabled-worlds:
+
+
+
+
+
+
+
+disabled-worldguard-regions:
+
+disable-worldguard-integration: false
+
+
+only-spawn-chests-if-player-may-build: false
+
+
+
+detect-additional-drops: true
+
+ignore-telekinesis: false
+
+use-slimefun: true
+
+use-executableitems: true
+
+check-generic-soulbound: true
+
+exempt-elitemobs-soulbound-items-from-generic-soulbound-detection: true
+
+lands-dont-protect-when-at-war: false
+
+ignore-keep-inventory: false
+
+use-worldborder-api: true
+
+combatlogx-prevent-fastlooting: false
+
+event-priority: HIGHEST
+
+disable-interacting-with-holograms: false
+
+
+
+
+
+
+
+
+hologram-text: "&f&a&l[Grave]&f&r\n&b{player}\n&7{items} items / {xp} XP\n&6{time}\n&cKilled by {deathcause}"
+
+hologram-protected-text: "&cProtected"
+
+hologram-protected-countdown-text: "&cProtected for {time}"
+
+hologram-unprotected-text: "&aUnprotected"
+
+hologram-offset: 0.0
+
+hologram-offset-per-line: 0.25
+
+
+
+allow-fastlooting: true
+
+gui-requires-shift: true
+
+gui-button-back: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0="
+gui-button-info: "PAPER"
+gui-button-teleport: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZlYjM5ZDcxZWY4ZTZhNDI2NDY1OTMzOTNhNTc1M2NlMjZhMWJlZTI3YTBjYThhMzJjYjYzN2IxZmZhZSJ9fX0="
+gui-button-fetch: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZlYjM5ZDcxZWY4ZTZhNDI2NDY1OTMzOTNhNTc1M2NlMjZhMWJlZTI3YTBjYThhMzJjYjYzN2IxZmZhZSJ9fX0="
+gui-button-unlock: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkOTQzZDA2MzM0N2Y5NWFiOWU5ZmE3NTc5MmRhODRlYzY2NWViZDIyYjA1MGJkYmE1MTlmZjdkYTYxZGIifX19"
+gui-button-preview: "BOOK"
+gui-button-preview-placeholder: "GRAY_STAINED_GLASS_PANE"
+gui-button-confirm-info: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlNTIyZDkxODI1MjE0OWU2ZWRlMmVkZjNmZTBmMmMyYzU4ZmVlNmFjMTFjYjg4YzYxNzIwNzIxOGFlNDU5NSJ9fX0="
+gui-button-confirm-accept: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyYTUzMGY0MjcyNmZhN2EzMWVmYWI4ZTQzZGFkZWUxODg5MzdjZjgyNGFmODhlYThlNGM5M2E0OWM1NzI5NCJ9fX0="
+gui-button-confirm-decline: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0="
+
+gui-title-main: "&f"
+
+gui-chest-lore: "§4{time}\n§aX: §f{x}\n§aY: §f{y}\n§aZ: §f{z}\n§f{world}"
+
+
+angelchest-inventory-name: "&f &b{player}&r"
+
+gui-back: "&6Back"
+gui-info: "&6Info"
+gui-info-lore: "§6You are about to spend {price}{currency}."
+gui-teleport: "&6Teleport"
+gui-teleport-lore: "§6You are about to spend {price}{currency}."
+gui-fetch: "&6Fetch"
+gui-fetch-lore: "§6You are about to spend {price}{currency}."
+gui-unlock: "&6Unlock"
+gui-accept: "&aAccept"
+gui-decline: "&cDecline"
+gui-preview: "&6Preview"
+
+
+angelchest-list: "[{id}] {time} &aX:&f {x} &aY:&f {y} &aZ:&f {z} | {world} "
+
+link-unlock: "&5[Unlock]&r"
+link-fetch: "&6[Fetch]&r"
+link-teleport: "&6[TP]&r"
+
+show-links-on-separate-line: false
+
+add-prefix: true
+prefix: "&f &r"
+
+
+
+command-aliases-acgui:
+- angelchestgui
+
+command-aliases-aclist:
+- acinfo
+- ac
+- angelchest
+- angelchestinfo
+- angelchestlist
+
+command-aliases-acfetch:
+- acretrieve
+- angelchestfetch
+- angelchestretrieve
+
+command-aliases-actp:
+- acteleport
+- angelchesttp
+- angelchestteleport
+
+command-aliases-acunlock:
+- angelchestunlock
+- unlockchest
+- unlock
+
+command-aliases-actoggle:
+- angelchesttoggle
+
+command-aliases-acreload:
+- angelchestreload
+
+command-aliases-acdebug:
+- acd
+
+
+console-message-on-open: false
+
+log-angelchests: false
+
+purge-logs-older-than-x-hours: 48
+
+purge-logs-every-x-hours: 1
+
+log-filename: "{player}_{world}_{date}.log"
+
+chest-filename: "{player}_{world}_{x}_{y}_{z}.yml"
+
+
+message-all-your-angelchests-were-already-unlocked: "&eAll your Graves were already unlocked."
+message-angelchest-created: "&aAn Angel collected your stuff and put it into a chest located at the place of your death."
+message-angelchest-disappeared: "&cYou were too slow... Your Grave has disappeared and dropped its contents."
+message-error-players-only: "&cError: This command can only be used by players."
+message-inventory-was-empty: "&eAn Angel searched for your stuff but could not find anything."
+message-not-allowed-to-break-other-angelchests: "&cYou are not allowed to break this Grave."
+message-not-allowed-to-open-other-angelchests: "&cYou are not allowed to open this Grave."
+message-unlocked-more-angelchests: "&aYou have unlocked %d Graves."
+message-unlocked-one-angelchest: "&aYou have unlocked your Grave."
+message-you-dont-have-any-angelchests: "&eYou don't have any Graves."
+message-you-got-part-of-your-inventory-back: "&eYou got a part of your inventory back, but some items are still in the Grave."
+message-you-got-your-inventory-back: "&aYou got your inventory back!"
+message-angelchest-location: "&eLocations of your Graves:"
+message-not-enough-money: "&cYou don't have enough money."
+message-not-enough-money2: "&cAn Angel tried to collect your stuff but you didn't have enough money."
+message-please-select-chest: "&7Please specify which Grave you would like to select."
+message-already-unlocked: "&cThis Grave is already unlocked."
+message-too-many-angelchests: "&cYou had more Graves than your Angel could handle... Your oldest Grave has exploded."
+message-no-angelchest-in-pvp: "&cAn Angel tried to collect your stuff but was put to flight by the presence of your killer."
+message-angelchest-retrieved: "&aGrave retrieved!"
+message-confirm: "&6You are about to spend {price}{currency}. Click this message to continue."
+message-paid-open: "&8You spent {price}{currency} to open an Grave."
+message-unlocked-automatically: "&8Your Grave has been unlocked automatically."
+message-angelchest-opened: "&6{player} has opened your Grave."
+message-angelchest-emptied: "&c{player} has emptied your Grave."
+message-spawn-chance-unsuccessful: "&cYour Angel forgot to collect your stuff, unlucky!"
+message-no-permission: "&cYou do not have the permission to use this command."
+message-invulnerable: "&a&lYou are invulnerable for {time}."
+message-vulnerable: "&c&lYou are no longer invulnerable."
+message-tp-across-worlds-not-allowed: "&cYou cannot teleport to your Grave across worlds."
+message-fetch-across-worlds-not-allowed: "&cYou cannot fetch your Grave across worlds."
+message-max-tp-distance: "&cYou cannot teleport to Graves more than {distance} blocks away."
+message-max-fetch-distance: "&cYou cannot fetch Graves more than {distance} blocks away."
+message-angelchest-disabled: "&cYou are no longer protected by Angels."
+message-angelchest-enabled: "&aYou are now protected by Angels."
+message-angelchest-fetched: "&aGrave fetched succesfully."
+message-angelchest-teleported: "&aSuccessfully teleported you to your Grave."
+message-min-distance: "&cYou already are nearby your Grave."
+message-buried-in-graveyard: "&aAn Angel collected your stuff and buried it at &6{graveyard}."
+message-cant-fetch-here: "&cYou cannot fetch your Grave here."
+message-teleporting: "&aTeleporting to Grave..."
+message-angelchest-disabled-others: "&c{player} is no longer protected by Angels."
+message-angelchest-enabled-others: "&a{player} is now protected by Angels."
+message-has-no-item: "&cYou need at least one {item}&r&c to do this."
+message-has-no-item2: "&cAn Angel tried to collect your stuff but you didn't have any {item}&r&c."
+message-cooldown: "&cAn Angel tried to collect your stuff but was still too tired to do so."
+message-pvp-cooldown: "&cAn Angel tried to collect your stuff but was still too tired to do so."
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debug: false
+verbose: false
+
+plugin-version: 9.14.2
+config-version: 202306131614

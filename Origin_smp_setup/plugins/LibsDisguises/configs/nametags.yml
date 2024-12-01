@@ -1,0 +1,10 @@
+ShowNamesAboveDisguises: false
+NameAboveHeadAlwaysVisible: true
+NameAboveDisguise: '%complex%'
+PlayerNames: 'ARMORSTANDS'
+OverrideCustomNames: true
+Scoreboard:
+  Collisions: true
+  DisableFriendlyInvisibles: false
+  WarnConflict: true
+  CopyPlayerTeamInfo: true

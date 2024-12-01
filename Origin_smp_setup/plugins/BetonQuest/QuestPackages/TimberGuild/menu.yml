@@ -1,0 +1,357 @@
+menus:
+  questMenu:
+    height: 5
+    title: "&f"
+    command: "/timberguild"
+    slots:
+#      0-3: "filler,filler,filler,filler"
+      1: "TimberTidings,TimberTidingsActive,TimberTidingsQuestCompleted,TimberTidingsQuestpaid"
+      31: "TimberTidings_128_locked,TimberTidings_128_inactive,TimberTidings_128_active,TimberTidings_128_QuestCompleted,TimberTidings_128_Questpaid"
+      21: "TimberTidings_192_locked,TimberTidings_192_inactive,TimberTidings_192_active,TimberTidings_192_QuestCompleted,TimberTidings_192_Questpaid"
+      15: "TimberTidings_256_locked,TimberTidings_256_inactive,TimberTidings_256_active,TimberTidings_256_QuestCompleted,TimberTidings_256_Questpaid"
+
+
+
+    items:
+      TimberTidings:
+        item: "QuestInactiveItem"
+        amount: 1
+        conditions: "!break64Logs_done,!break64Logs_started"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level I"
+            - "&f "
+            - "&f &7Chop down 64 towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f '
+            - "&f &eLeft click to start the quest."
+            - '&f ' 
+        click:
+          left: "break64Logs,break64Logs_started,entry_break64Logs_started"
+        close: true
+
+      TimberTidingsActive:
+        item: "QuestActiveItem"
+        amount: 1
+        conditions: "break64Logs_started,!break64Logs_done,!break64Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level I"
+            - "&f "
+            - "&f &7Chop down &4&3%objective.break64Logs.left% towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f ' 
+        close: false
+
+      TimberTidingsQuestCompleted:
+        item: "QuestCompletedUnclaim"
+        amount: 1
+        conditions: "break64Logs_done,!break64Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level I"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - "&f &eLeft click to Claim"
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        click:
+          left: "money_64_rewards,break64Logs_paid"
+        close: true
+
+      TimberTidingsQuestpaid:
+        item: "QuestCompleted"
+        amount: 1
+        conditions: "break64Logs_paid,break64Logs_done"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level I"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - '&f &a&lCLAIMED'
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        close: false
+#################################
+      TimberTidings_128_locked:
+        item: "questlocked"
+        amount: 1
+        conditions: "!break64Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &7Need to finish other"
+            - "&f &7ꞯᴜᴇꜱᴛ to unlock this."
+            - '&f '
+            - "&f &fʀᴇꞯᴜɪʀᴇᴅ"
+            - "&f "
+            - "&f &5Timber Tidings Level I"
+            - '&f &f &4&lʟᴏᴄᴋᴇᴅ &f' 
+        close: false
+
+      TimberTidings_128_inactive:
+        item: "QuestInactiveItem"
+        amount: 1
+        conditions: "!break128Logs_done,!break128Logs_started"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level II"
+            - "&f "
+            - "&f &7Chop down 128 towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f '
+            - "&f &eLeft click to start the quest."
+            - '&f ' 
+        click:
+          left: "break128Logs,break128Logs_started,entry_break128Logs_started"
+        close: true
+
+
+      TimberTidings_128_active:
+        item: "QuestActiveItem"
+        amount: 1
+        conditions: "break128Logs_started,!break128Logs_done,!break128Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level II"
+            - "&f "
+            - "&f &7Chop down &4&3%objective.break128Logs.left% towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f ' 
+        close: false
+
+      TimberTidings_128_QuestCompleted:
+        item: "QuestCompletedUnclaim"
+        amount: 1
+        conditions: "break128Logs_done,!break128Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level II"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - "&f &eLeft click to Claim"
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        click:
+          left: "money_128_rewards,break128Logs_paid"
+        close: true
+
+      TimberTidings_128_Questpaid:
+        item: "QuestCompleted"
+        amount: 1
+        conditions: "break128Logs_paid,break128Logs_done"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level II"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - '&f &a&lCLAIMED'
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        close: false
+
+#################################
+      TimberTidings_192_locked:
+        item: "questlocked"
+        amount: 1
+        conditions: "!break128Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &7Need to finish other"
+            - "&f &7ꞯᴜᴇꜱᴛ to unlock this."
+            - '&f '
+            - "&f &fʀᴇꞯᴜɪʀᴇᴅ"
+            - "&f "
+            - "&f &5Timber Tidings Level II"
+            - '&f &f &4&lʟᴏᴄᴋᴇᴅ &f' 
+        close: false
+
+
+      TimberTidings_192_inactive:
+        item: "QuestInactiveItem"
+        amount: 1
+        conditions: "!break192Logs_done,!break192Logs_started"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level III"
+            - "&f "
+            - "&f &7Chop down 192 towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f '
+            - "&f &eLeft click to start the quest."
+            - '&f ' 
+        click:
+          left: "break192Logs,break192Logs_started,entry_break192Logs_started"
+        close: true
+
+
+      TimberTidings_192_active:
+        item: "QuestActiveItem"
+        amount: 1
+        conditions: "break192Logs_started,!break192Logs_done,!break192Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level III"
+            - "&f "
+            - "&f &7Chop down &4&3%objective.break192Logs.left% towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f ' 
+        close: false
+
+      TimberTidings_192_QuestCompleted:
+        item: "QuestCompletedUnclaim"
+        amount: 1
+        conditions: "break192Logs_done,!break192Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level III"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - "&f &eLeft click to Claim"
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        click:
+          left: "money_192_rewards,break192Logs_paid"
+        close: true
+
+      TimberTidings_192_Questpaid:
+        item: "QuestCompleted"
+        amount: 1
+        conditions: "break192Logs_paid,break192Logs_done"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level III"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - '&f &a&lCLAIMED'
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        close: false
+
+#################################
+      TimberTidings_256_locked:
+        item: "questlocked"
+        amount: 1
+        conditions: "!break192Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &7Need to finish other"
+            - "&f &7ꞯᴜᴇꜱᴛ to unlock this."
+            - '&f '
+            - "&f &fʀᴇꞯᴜɪʀᴇᴅ"
+            - "&f "
+            - "&f &5Timber Tidings Level III"
+            - '&f &f &4&lʟᴏᴄᴋᴇᴅ &f' 
+        close: false
+
+
+      TimberTidings_256_inactive:
+        item: "QuestInactiveItem"
+        amount: 1
+        conditions: "!break256Logs_done,!break256Logs_started"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level IV"
+            - "&f "
+            - "&f &7Chop down 256 towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f '
+            - "&f &eLeft click to start the quest."
+            - '&f ' 
+        click:
+          left: "break256Logs,break256Logs_started,entry_break256Logs_started"
+        close: true
+
+
+      TimberTidings_256_active:
+        item: "QuestActiveItem"
+        amount: 1
+        conditions: "break256Logs_started,!break256Logs_done,!break256Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level IV"
+            - "&f "
+            - "&f &7Chop down &4&3%objective.break256Logs.left% towering trees"
+            - "&f &7gather their precious logs"
+            - "&f &7and prove your mastery"
+            - "&f &7over the timberlands."
+            - '&f ' 
+        close: false
+
+      TimberTidings_256_QuestCompleted:
+        item: "QuestCompletedUnclaim"
+        amount: 1
+        conditions: "break256Logs_done,!break256Logs_paid"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level IV"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - "&f &eLeft click to Claim"
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        click:
+          left: "money_256_rewards,break256Logs_paid"
+        close: true
+
+      TimberTidings_256_Questpaid:
+        item: "QuestCompleted"
+        amount: 1
+        conditions: "break256Logs_paid,break256Logs_done"
+        text:
+            - '&f &f&lꞯᴜᴇꜱᴛ'
+            - '&f '
+            - "&f &4&lTimber Tidings &6Level IV"
+            - "&f "
+            - "&f &7You chopped the required"
+            - "&f &7logs, and proved your"
+            - "&f &7mastery over the timberlands."
+            - "&f "
+            - '&f &a&lCLAIMED'
+            - "&f  &a&lꞯᴜᴇꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ!"
+        close: false

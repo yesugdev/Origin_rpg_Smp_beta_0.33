@@ -1,0 +1,1759 @@
+ShopName: quest_menu
+DisplayName: "§f" 
+InventorySize: 54 
+Command: q:quest menu
+shop: 
+  battlepass1:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  battlepass2:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  battlepass3:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  battlepass4:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+
+  battlepass5:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  battlepass6:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  battlepass7:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  battlepass8:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  battlepass9:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  battlepass10:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  battlepass11:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  battlepass12:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+
+  battlepass13:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  battlepass14:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  battlepass15:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  battlepass16:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+
+  battlepass17:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  battlepass18:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  battlepass19:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+  battlepass20:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+
+  battlepass21:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 46
+  battlepass22:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 47
+  battlepass23:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 48
+  battlepass24:
+    MenuItem:
+    - "name:&f &lʙᴀᴛᴛʟᴇ ᴘᴀꜱꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'battlepass'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+
+
+
+  daily1:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  daily2:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  daily3:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  daily4:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+
+  daily5:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  daily6:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  daily7:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  daily8:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  daily9:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  daily10:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  daily11:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  daily12:
+    MenuItem:
+    - "name:&f &lᴅᴀɪʟʏ ꞯᴜᴇꜱᴛ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore13:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'daily'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+
+
+
+
+
+
+
+
+  farmguild_1:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_1:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_1:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_1:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_1:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    
+    
+
+
+  farmguild_2:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_2:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_2:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_2:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_2:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+
+
+
+
+  farmguild_3:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_3:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_3:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_3:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_3:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+
+
+
+
+  farmguild_4:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_4:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_4:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_4:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_4:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    
+
+
+
+
+  farmguild_5:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_5:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_5:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_5:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_5:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+    
+
+
+
+  farmguild_6:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_6:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_6:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_6:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_6:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+
+
+
+
+  farmguild_7:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_7:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_7:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_7:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_7:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+
+
+
+
+  farmguild_8:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_8:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_8:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_8:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_8:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+
+
+
+  farmguild_9:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_9:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_9:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_9:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_9:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+
+
+
+
+  farmguild_10:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_10:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_10:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_10:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_10:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+
+
+
+
+  farmguild_11:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_11:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_11:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_11:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_11:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+
+
+
+
+  farmguild_12:
+    MenuItem:
+    - "name:&f &lꜰᴀʀᴍᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore7:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'farmerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+    Condition:
+    - type:permission 
+    - "match:farmer.guild" 
+
+  minerguild_12:
+    MenuItem:
+    - "name:&f &lᴍɪɴᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'minerguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+    Condition:
+    - type:permission 
+    - "match:miner.guild" 
+
+
+  warriorguild_12:
+    MenuItem:
+    - "name:&f &lᴡᴀʀʀɪᴏʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore9:&f '
+    - 'lore14:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'warriorguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+    Condition:
+    - type:permission 
+    - "match:warrior.guild" 
+
+
+  timberguild_12:
+    MenuItem:
+    - "name:&f &lᴛɪᴍʙᴇʀ ɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore10:&f '
+    - 'lore17:&f '
+    RewardType: PLAYERCOMMAND
+    Reward: 'timberguild'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+    Condition:
+    - type:permission 
+    - "match:timber.guild" 
+
+
+  noguild_12:
+    MenuItem:
+    - "name:&f &lɢᴜɪʟᴅ" 
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    - 'lore7:&f        &f&lᴀᴠᴀɪʟᴀʙʟᴇ ɢᴜɪʟᴅꜱ'
+    - 'lore8:&f '
+    - 'lore13:&f '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+    
+    

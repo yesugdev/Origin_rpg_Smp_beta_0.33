@@ -1,0 +1,603 @@
+ShopName: kits_vip
+DisplayName: "§f" 
+InventorySize: 54
+Command: show kits vip:show kit vip
+shop: 
+  kit_member_1:
+    MenuItem:
+    - "name:&f &lᴍᴇᴍʙᴇʀ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_member %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  kit_member_2:
+    MenuItem:
+    - "name:&f &lᴍᴇᴍʙᴇʀ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_member %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  kit_member_3:
+    MenuItem:
+    - "name:&f &lᴍᴇᴍʙᴇʀ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_member %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+
+
+
+  kit_vip_1:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  kit_vip_2:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  kit_vip_3:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  kit_vip_4:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  kit_vip_5:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  kit_vip_6:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  kit_vip_7:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  kit_vip_8:
+    MenuItem:
+    - "name:&f &e&lᴠɪᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_vip %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+
+
+  kit_mvp_1:
+    MenuItem:
+    - "name:&f &b&lᴍᴠᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_mvp %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  kit_mvp_2:
+    MenuItem:
+    - "name:&f &b&lᴍᴠᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_mvp %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  kit_mvp_3:
+    MenuItem:
+    - "name:&f &b&lᴍᴠᴘ ᴋɪᴛꜱ"
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_mvp %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  kit_elite_1:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_elite %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  kit_elite_2:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_elite %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  kit_elite_3:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore1:&f '
+    - 'lore6:&f '
+    RewardType: COMMAND
+    Reward: 'shop open kits_elite %player%'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+
+
+
+
+
+    
+  kit_vip_claim1:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    RewardType: PLAYERCOMMAND
+    Reward: 'kit vip'
+    PriceType: ''
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+    Condition:
+    - type:placeholdermatch
+    - "%essentials_kit_is_available_vip%:match:yes"
+    - type:permission 
+    - "match:essentials.kits.vip" 
+
+  kit_vip_claim2:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    RewardType: PLAYERCOMMAND
+    Reward: 'kit vip'
+    PriceType: ''
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+    Condition:
+    - type:placeholdermatch
+    - "%essentials_kit_is_available_vip%:match:yes"
+    - type:permission 
+    - "match:essentials.kits.vip" 
+
+  kit_vip_claim3:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    RewardType: PLAYERCOMMAND
+    Reward: 'kit vip'
+    PriceType: ''
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:placeholdermatch
+    - "%essentials_kit_is_available_vip%:match:yes"
+    - type:permission 
+    - "match:essentials.kits.vip" 
+
+
+
+
+
+
+  kit_vip_cooldown1:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore5:&8• &bStatus: &7On Cooldown'
+    - 'lore6:&8• &bAvailable In: &7%essentials_kit_time_until_available_vip%'
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+    Condition:
+    - type:placeholdermatch
+    - "%essentials_kit_is_available_vip%:match:no"
+    - type:permission 
+    - "match:essentials.kits.vip" 
+
+
+  kit_vip_cooldown2:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore5:&8• &bStatus: &7On Cooldown'
+    - 'lore6:&8• &bAvailable In: &7%essentials_kit_time_until_available_vip%'
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+    Condition:
+    - type:placeholdermatch
+    - "%essentials_kit_is_available_vip%:match:no"
+    - type:permission 
+    - "match:essentials.kits.vip" 
+
+
+
+  kit_vip_cooldown3:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore5:&8• &bStatus: &7On Cooldown'
+    - 'lore6:&8• &bAvailable In: &7%essentials_kit_time_until_available_vip%'
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:placeholdermatch
+    - "%essentials_kit_is_available_vip%:match:no"
+    - type:permission 
+    - "match:essentials.kits.vip" 
+
+
+
+
+  kit_vip_locked1:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore2: '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+
+  kit_vip_locked2:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore2: '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+
+  kit_vip_locked3:
+    MenuItem:
+    - type:FEATHER 
+    - amount:1 
+    - custommodeldata:10041
+    - 'lore2: '
+    RewardType: NOTHING
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+
+
+
+
+
+
+
+  stone_sword:
+    MenuItem:
+    - type:IRON_SWORD 
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+
+  shield:
+    MenuItem:
+    - type:SHIELD 
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+
+  diamond_helmet:
+    MenuItem:
+    - type:DIAMOND_HELMET 
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+
+  crossbow:
+    MenuItem:
+    - type:CROSSBOW 
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+
+  diamond_chestplate:
+    MenuItem:
+    - type:DIAMOND_CHESTPLATE
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+
+  diamonmd_axe:
+    MenuItem:
+    - type:DIAMOND_AXE 
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+
+
+
+
+  diamond_pickaxe:
+    MenuItem:
+    - type:DIAMOND_PICKAXE 
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    
+  diamond_leggings:
+    MenuItem:
+    - type:DIAMOND_LEGGINGS
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+
+  diamond_shovel:
+    MenuItem:
+    - type:DIAMOND_SHOVEL
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+
+
+  experience_bottle:
+    MenuItem:
+    - "name:&7Experience Bottle" 
+    - type:EXPERIENCE_BOTTLE
+    - amount:32
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+
+
+  diamond_boots:
+    MenuItem:
+    - type:DIAMOND_BOOTS
+    - amount:1 
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+
+
+  cooked_cod:
+    MenuItem:
+    - "name:&7Cooked Cod" 
+    - type:COOKED_COD
+    - amount:16
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+
+
+  golden_apple:
+    MenuItem:
+    - "name:&7Golden Apple" 
+    - type:GOLDEN_APPLE
+    - amount:3
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+
+  golden_ingot:
+    MenuItem:
+    - "name:&7Gold Ingot" 
+    - type:GOLD_INGOT
+    - amount:16
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+
+  cobblestone:
+    MenuItem:
+    - "name:&7Cobblestone" 
+    - type:COBBLESTONE
+    - amount:64
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+
+  oak_log:
+    MenuItem:
+    - "name:&7Oak logs" 
+    - type:OAK_LOG
+    - amount:32
+    RewardType: 'NOTHING'
+    Reward: ''
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18

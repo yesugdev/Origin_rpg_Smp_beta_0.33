@@ -1,0 +1,11 @@
+StopShulkerDisguisesFromMoving: true
+SaveGameProfiles: true
+UpdateGameProfiles: true
+ModifyBoundingBox: false
+DyeableSheep: false
+DyeableWolf: false
+DyeableCat: false
+CarpetableLlama: false
+SaddleableHorse: false
+RandomUUIDs: true
+NeverUpdateProtocolLib: false

@@ -1,0 +1,118 @@
+regions:
+  
+  
+  example1:
+    worldName: world
+    
+    commands:
+      playerEnterCommand: kick %player%; broadcast %player% has entered the %regionname%
+        region!
+      consoleEnterCommand: NONE
+      
+      playerLeaveCommand: ban %player%
+      consoleLeaveCommand: NONE
+    
+    messages:
+      onEnter: '&7Welcome, &e%player%&7 to &6%regionname%&7!'
+      onLeave: '&7Bye, &e%player%&7! Visit &6%regionname%&7 again someday!!'
+    
+    sounds:
+      onEnter: BLOCK_BEACON_ACTIVATE
+      onLeave: BLOCK_BARREL_CLOSE
+    locations:
+      '1':
+        x: 0
+        y: 0
+        z: 0
+      '2':
+        x: 0
+        y: 0
+        z: 0
+  redballoon:
+    worldName: isla
+    commands:
+      playerEnterCommand: NONE
+      consoleEnterCommand: shop open warps %player%
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 56
+        y: 84
+        z: 157
+      '2':
+        x: 53
+        y: 86
+        z: 157
+  blueballoon:
+    worldName: isla
+    commands:
+      playerEnterCommand: NONE
+      consoleEnterCommand: shop open warps %player%
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 1
+        y: 84
+        z: 28
+      '2':
+        x: 1
+        y: 86
+        z: 25
+  yellowballoon:
+    worldName: isla
+    commands:
+      playerEnterCommand: NONE
+      consoleEnterCommand: shop open warps %player%
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 167
+        y: 66
+        z: -140
+      '2':
+        x: 170
+        y: 68
+        z: -140
+  greenballoon:
+    worldName: isla
+    commands:
+      playerEnterCommand: NONE
+      consoleEnterCommand: shop open warps %player%
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 217
+        y: 83
+        z: 60
+      '2':
+        x: 217
+        y: 85
+        z: 63

@@ -1,0 +1,12 @@
+
+owner-outside-pvp: true
+
+owner-in-pvp: true
+
+killer: false
+
+others: false
+
+groups:
+  - admin
+  - vip
