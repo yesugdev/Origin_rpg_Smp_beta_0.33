@@ -1,0 +1,24 @@
+location: spawn:0.530:103.000:-3.766
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 90.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '&f&lWelcome to the &c&lLifesteal SMP'
+    height: 0.8
+  - content: '&fTo begin your journey playing on our network'
+    height: 0.3
+  - content: '&fdo &c/warp&f and go to the &cWild&f world'
+    height: 0.3
+  - content: '&fNeed help? Check out &c/help &fand'
+    height: 0.3
+  - content: '&fdon''t forget to join our discord server.'
+    height: 0.3
+  - content: '&c&ndiscord.yournetwork.net'
+    height: 0.3
+  actions: {}
+always-face-player: true

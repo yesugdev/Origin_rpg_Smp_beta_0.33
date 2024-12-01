@@ -1,0 +1,20 @@
+location: spawn:15.514:102.300:-26.253
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lLifesteal &8| &f&lCrates'
+    height: 0.8
+  - content: '&fRedeem all of your available keys to open the crate'
+    height: 0.3
+  - content: '&fand get a rewards!, you can get more keys by &cvoting'
+    height: 0.3
+  - content: '&for by &cdonating&f.'
+    height: 0.7
+  actions: {}
+always-face-player: true

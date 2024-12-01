@@ -1,8 +1,0 @@
-name: streamer
-permissions:
-- weight.200
-parents:
-- default
-prefixes:
-- §f§r:
-    priority: 200
